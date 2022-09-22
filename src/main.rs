@@ -31,7 +31,6 @@ fn event(app: &App, model: &mut Model, event: Event) {
                 }
                 
                 if app.time > 0.1 && model.position.unwrap() != pos {
-                    println!("{} - {}", pos, model.position.unwrap());
                     exit(0)
                 }
             }
